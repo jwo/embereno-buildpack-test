@@ -1,8 +1,17 @@
 # Embereno
 
-This README outlines the details of collaborating on this Ember application.
+Sample app to show that the ember-cli-buildpack works with a vanilla setup:
 
-A short introduction of this app could easily go here.
+http://powerful-dusk-3511.herokuapp.com/
+
+Only things I did to make it work:
+
+```bash
+heroku create --buildpack https://github.com/tonycoco/heroku-buildpack-ember-cli.git
+git push heroku master
+```
+
+
 
 ## Prerequisites
 
